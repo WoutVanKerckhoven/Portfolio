@@ -1,9 +1,22 @@
 body{
     margin: 0%;
+    background-color: aqua;
 }
 .headerachtergrond {
     background-color: black;
     height: 75px;
     margin-top: auto ;
     padding-top: 0px;
+}
+.logoheader {
+    margin-top: 8px;
+    height: 60px;
+}
+@media screen and (max-width: 1000px) {
+    body{
+        background-color: violet;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body{ background-color: green}     
 }
