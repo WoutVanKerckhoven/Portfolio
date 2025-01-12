@@ -161,11 +161,6 @@ body{
     font-weight: 100;
     font-size:clamp(0.5rem,1.5vw,2rem);
 }
-.achtergrond-werk {
-    background-color: #000000;
-    height: 2537px;
-    max-height: 1920px;
-}
 .logo-apps {
     margin-top: 50px;
 }
@@ -203,4 +198,36 @@ body{
     max-width: 150px;
     margin-left: 5%;
     margin-top: 0%;
+}
+.Titel-projects {
+    text-align: center;
+    margin-top: 25%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: clamp(2rem,5vw,7rem);
+    color: rgb(255, 0, 0);
+    margin-bottom: -5%;
+}
+.achtergrond-werk {
+    background-color: #000000;
+    height: 2537px;
+    max-height: 1920px;
+}
+.achtergrond-MTS-media {
+    background-color: rgb(30, 30, 30);
+    height: 300px;
+    margin-top: 400px;
+    width: 75%;
+    margin-left: 12%;
+    border-radius: 40px;
+    border: 20px solid #e61d25;
+}
+.rode-lijn-2 {
+    display: grid;
+    place-items: center;
+    width: 10px;
+    background-color: #ffffff;
+    height: 75%;
+    margin-left: 25%;
+    justify-content: center;
 }
