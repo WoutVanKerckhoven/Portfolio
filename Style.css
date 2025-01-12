@@ -105,6 +105,7 @@ body{
     margin-left: -400px;
     margin-right: 25px;
     margin-top: -50px;
+    opacity: 0%;
 }
 .titel-wie-ben-ik {
     text-align: center;
@@ -234,12 +235,106 @@ body{
 }
 .doorlopende-text-mts {
     color: #ffffff;
-    margin-left: 30%;
+    margin-left: 27%;
     margin-top: -15%;
     font-family: Roboto, sans-serif;
     font-weight: 800;
     font-size: 150%;
 }
-.logo-MM {
-    height: 15px;
+.Logo-MM {
+    height: auto;
+    width: auto;
+    max-height: 150px;
+    margin-left: 2%;
+    margin-top: -20%;
+    margin-bottom: 1%;
+}
+.achtergrond-logitech {
+    background-color: rgb(30, 30, 30);
+    height: 300px;
+    margin-top: 200px;
+    width: 75%;
+    margin-left: 12%;
+    border-radius: 40px;
+    border: 20px solid #e61d25;
+    margin-bottom: 0%;
+}
+.rode-lijn-3 {
+    shape-outside: square;
+    background-color: #e61d25;
+    width: 5px;
+    height: 75%;
+    margin-left: 25%;
+    margin-top: 2.5%;
+    shape-outside: inset(0 round 15px);
+    clip-path: inset(0 0 0 0 round 15px);
+}
+.doorlopende-text-logitech {
+    color: #ffffff;
+    margin-left: 27%;
+    margin-top:-12%;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 150%;
+}
+.poster-logitech {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin-left: 5%;
+    margin-top: -14%;
+    margin-bottom: 1%;
+}
+.achtergrond-wpl {
+    background-color: rgb(30, 30, 30);
+    height: 300px;
+    margin-top: -400px;
+    width: 75%;
+    margin-left: 12%;
+    border-radius: 40px;
+    border: 20px solid #e61d25;
+}
+.rode-lijn-4 {
+    shape-outside: square;
+    background-color: #e61d25;
+    width: 5px;
+    height: 75%;
+    margin-left: 25%;
+    margin-top: 2.5%;
+    shape-outside: inset(0 round 15px);
+    clip-path: inset(0 0 0 0 round 15px);
+}
+.doorlopende-text-wpl {
+    color: #ffffff;
+    margin-left: 27%;
+    margin-top:-12%;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 150%;
+}
+.mapje {
+    height: 75%;
+    margin-top: -15%;
+    margin-left: 4%;
+}
+.text-wpl {
+    color: #ffffff;
+    margin-left: 27%;
+    margin-top:-12%;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 150%;
+}
+.footer-background {
+    height: 500px;
+    width: auto;
+    max-width: 100%;
+    max-height: 3500px;
+    margin-top: 500px;
+}
+.footer-background img {
+    max-height: 45%; 
+    margin-left: auto;
+    height: auto;
+    margin-left: -5%;
 }
