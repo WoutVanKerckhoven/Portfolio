@@ -131,8 +131,21 @@ body{
     margin-right: 30px; 
     background-color: #e61d25;
     margin-top: 2%;
+}
+.skills-titel {
     color: black;
 }
+.skill-segment {
+    margin-top: 0%;
+}
 .Achtergrond-skills {
-    opacity: 0%;
+    margin-top: 5%;
+}
+.skills-titel {
+    text-align: center;
+    margin-top: -50%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: clamp(2rem,5vw,7rem);
+    color: rgb(0, 0, 0);
 }
