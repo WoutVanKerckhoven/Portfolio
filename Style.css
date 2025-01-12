@@ -156,9 +156,9 @@ body{
     justify-content: center;
     margin-top: 0px;
     color: #000000;
-    font-family: "Pacifico", sans-serif;
+    font-family: "Roboto", sans-serif;
     display: flex;
-    font-weight: 100;
+    font-weight: 500;
     font-size:clamp(0.5rem,1.5vw,2rem);
 }
 .logo-apps {
@@ -223,11 +223,23 @@ body{
     border: 20px solid #e61d25;
 }
 .rode-lijn-2 {
-    display: grid;
-    place-items: center;
-    width: 10px;
-    background-color: #ffffff;
+    shape-outside: square;
+    background-color: #e61d25;
+    width: 5px;
     height: 75%;
     margin-left: 25%;
-    justify-content: center;
+    margin-top: 2.5%;
+    shape-outside: inset(0 round 15px);
+    clip-path: inset(0 0 0 0 round 15px);
+}
+.doorlopende-text-mts {
+    color: #ffffff;
+    margin-left: 30%;
+    margin-top: -15%;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 150%;
+}
+.logo-MM {
+    height: 15px;
 }
