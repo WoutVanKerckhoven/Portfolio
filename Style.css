@@ -143,9 +143,64 @@ body{
 }
 .skills-titel {
     text-align: center;
-    margin-top: -50%;
+    margin-top: -55%;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-size: clamp(2rem,5vw,7rem);
     color: rgb(0, 0, 0);
+    margin-bottom: -5%;
+}
+.skills-doorlopende-text {
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    margin-top: 0px;
+    color: #000000;
+    font-family: "Pacifico", sans-serif;
+    display: flex;
+    font-weight: 100;
+    font-size:clamp(0.5rem,1.5vw,2rem);
+}
+.achtergrond-werk {
+    background-color: #000000;
+    height: 2537px;
+    max-height: 1920px;
+}
+.logo-apps {
+    margin-top: 50px;
+}
+.Illustrator {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    margin-left: 18%;
+    margin-right: 0%;
+}
+.Photoshop {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+.Figma {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    margin-left: 5%;
+    margin-top: 0%; 
+}
+.After-effects {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+.Lightroom {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    margin-left: 5%;
+    margin-top: 0%;
 }
